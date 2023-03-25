@@ -1,0 +1,24 @@
+{
+    "name": "playground/openai",
+    "require": {
+        "openai-php/client": "^0.4.1",
+        "symfony/http-client": "^6.2",
+        "nyholm/psr7": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Playground\\Openai\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marc Wolf",
+            "email": "openai@marcit.eu"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
